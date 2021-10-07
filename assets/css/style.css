@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+  }  
+html{
+    font-size: 62.2%;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6rem;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+header {
+    height: 450px;
+    width: 100%;
+    background-color: #fff;
+}
+.header__navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.header__navbar-list {
+    list-style: none;
+    padding: 12px 28px;
+}
+.header__navbar-text{
+    position: relative;
+    margin: 0 32px;
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+.header__navbar-text a {
+    color: #000;
+    text-decoration: none;
+}
+.header-images {
+    position: relative;
+    left: 70%;
+    margin-top: 40px;
+    max-width: 100%;
+}
+/* Mobile*/
+@media only screen and (max-width: 46.1875em){
+    .header__navbar {
+        display: block;
+    }
+    .header__navbar-text{
+        font-size: 1.8rem;
+        margin: 0 10px;
+    }
+    .header__navtext{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 63.9375em){
+    .header__navtext{
+        flex-direction: column-reverse;
+    }
+    .header__navtext-left{
+        
+    }
+}
+.header__navtext{
+    display: flex;
+}
+.header__navtext-left{
+    position: absolute;
+    display: inline;
+    margin: 0 200px;
+    margin-top: 40px;
+    width: 498px;
+    max-width: 100%;
+}
+.header-text{
+    font-size: 3.2rem;
+    padding: 10px 0;
+}
+.header-text_p{
+    font-size: 1.6rem;
+    margin: 18px 0;
+    line-height: 1.4;
+}
+.header-text_button{
+    padding: 8px 18px;
+    color: #fff;
+    background-color: #FF6464;
+    border: none;
+    border-radius: 2px;
+}
+.header-text_button:hover{
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+main{
+    width: 100%;    
+}
+.culumn{
+    width: 100%;
+    height: 400px;
+    background-color: #EDF7FA;
+}
+.culumn-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 20px 0;
+}
+.culumn-text_top1{
+    font-size: 2rem;
+    color: #21243D;
+}
+.culumn-text_top2{
+    font-size: 1.6rem;
+    color: #00A8CC;
+}
+.culumn-text_top2:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    color: #00A7CC;
+}
+.culumn-layout{
+    margin: 0px 200px;
+    display: flex;
+    margin-right: 100px;
+}
+.culumn__text-box{
+    display: block;
+    background-color: #fff;
+    width: 500px;
+    max-width: 100%;
+    height: 265px;
+    padding: 20px 25px 30px 30px ;
+    border-radius: 2px;
+    margin-right: 100px;
+}
+.culumn__text-box h2 {
+    font-size: 2.2rem;
+    color: #21243D;
+}
+.culumn-text_month{
+    display: flex;
+}
+.culumn-text_month p {
+    font-size: 1.8rem;
+    color: #21243D;
+    margin-right: 12px;
+}
+.culumn-text_p{
+    font-size: 1.6rem;
+    color: #21243D;
+    line-height: 1.4;
+}
+.feature{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 200px;
+}
+.feature-text{
+    font-size: 2.2rem;
+    padding: 20px 0;
+    color: #21243D;
+}
+.feature__layout{
+    display: flex;
+    margin: 40px 0;
+}
+.feature__layout-box{
+    display: block;
+    width: 850px;
+    max-width: 100%;
+    padding: 20px 25px 30px 30px ;
+    border-radius: 2px;
+    margin-right: 100px;
+}
+.feature__layout-box h2{
+    font-size: 3rem;
+    margin-top: -16px;
+}
+.feature__layout-month{
+    display: flex;
+}
+.feature__layout-btn button{
+    color: #fff;
+    background-color: #142850;
+    border: none;
+    border-radius: 100px;
+    margin-right: 18px;
+}
+.feature__layout-btn button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.feature__layout-p {
+    color: #8695A4;
+    font-size: 2rem;
+    margin-top: -1px;
+    opacity: 0.8;
+}
+.feature__layout-box p{
+    font-size: 1.6rem;
+    color: #21243D;
+    line-height: 1.4;
+}
+footer{
+    width: 100%;
+    height: 182px;
+    background-color: #fff;
+}
+.footer__items{
+    text-align: center;
+    padding: 100px 0;
+}
+.footer__items-icon{
+    display: block;
+}
+.icon {
+    list-style: none;
+    margin-top: 16px; 
+    font-size: 2rem;
+}
+.icon__link{
+    margin: 0 16px;
+    font-size: 46px;
+}
+.footer__items p {
+    font-size: 1.6rem;
+    margin-right: -18px;
+    margin-top: 32px;
+}
+.icon__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: bold;
+}
+.facebook{
+    color: #2C5282;
+}
+.instagram{
+    color:#f05123;
+}
+.twitter{
+    color: rgb(29, 155, 240);
+}
+.solid1{
+    width: 900px;
+    max-width: 100%;
+    height: 2px;
+    background-color: #E0E0E0;
+    margin: 20px 20px 20px 50px;
+}
+.solid1:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: bold;
+}
